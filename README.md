@@ -10,7 +10,7 @@ install nuget package tomal-hossain.TwilioAuthy
 
 # User Module
 
-Create authy instance using your production api key of Twilio.
+Create Authy instance using your production api key of Twilio.
 Example: Authy authy = new Authy("production_api_key");
 
 
@@ -30,12 +30,12 @@ For successfull API call it will return true and send a 6-8 digit token to user 
 
 # Verify OTP
 
-You need to pass the authy_id and token to verify it
+You need to pass the authy_id and token to verify it.
 Example: bool status = authy.VerifyOTP(authy_id, token);
 It will return true if successfully verified or return false.
 
 # Remove User
 
-You need to pass the authy_id to remove the user from Twilio
+You need to pass the authy_id to remove the user from Twilio.
 Example: bool status = authy.RemoveUser(authy_id);
 It will return true if successfully removed or return false.
