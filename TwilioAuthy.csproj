@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Tomal Hossain</Authors>
+    <PackageId>tomal-hossain.TwilioAuthy</PackageId>
+    <Description>Twilio authy operations: create user, send otp to user, verify otp, delete user</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/tomal-hossain/twilio-authy</RepositoryUrl>
+    <RepositoryType>public</RepositoryType>
+    <PackageTags>Twilio, Twilio Aythy, 2FA Authentication</PackageTags>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>
